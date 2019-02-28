@@ -1,0 +1,48 @@
+html, body {
+    
+    background: linear-gradient( rgb(218, 214, 255), rgb(239, 238, 253), rgb(218, 214, 255));
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.navbar {
+    background-color: rgb(192, 188, 188);
+}
+
+#search {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.navbar-brand {
+    font-family: Dancing Script;
+    font-size: 1.55rem;
+}
+
+.btn-outline-success:hover {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 5rem;
+
+}
+
+#landingImg {
+    width: 75%;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+}
