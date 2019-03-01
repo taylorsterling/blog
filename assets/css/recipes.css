@@ -1,7 +1,7 @@
 html, body {
     
-    background-color: #34ADFF;
-    background-image: -webkit-linear-gradient(150deg, #34ADFF 35%, #4CBFFF 35%);
+    background-color: rgb(255, 173, 51);
+    background-image: -webkit-linear-gradient(150deg, #ffad33 35%, #ffc266 35%);
     min-height: 700px;
     height: 100vh;
 
@@ -40,21 +40,18 @@ h1 {
     text-align: center;
 }
 
-.row1 {
-    margin-bottom: 3%;
-}
-
-.carousel {
-    width: 62%;
+.card {
+    border: none;
+    background-color: transparent;
     align-self: center;
+    margin: 0 auto;
 }
 
-#landing {
-    margin-top: 3%;
-    
+.card-img-top {
+    width: 71%;
 }
 
-h3 {
+h5 {
     font-family: 'Playfair Display', serif;
     font-size: 1.6rem;
     text-align: center;
