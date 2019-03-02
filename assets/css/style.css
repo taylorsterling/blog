@@ -1,10 +1,8 @@
 html, body {
     
     background-color: #34ADFF;
-    background-image: -webkit-linear-gradient(150deg, #34ADFF 35%, #4CBFFF 35%);
+    background-image: -webkit-linear-gradient(150deg, #34ADFF 50%, #4CBFFF 50%);
     min-height: 700px;
-    height: 100vh;
-
 }
 
 .navbar {
@@ -64,4 +62,21 @@ p {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    width: 71%;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    text-align: center;
 }
